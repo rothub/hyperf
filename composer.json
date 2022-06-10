@@ -1,0 +1,30 @@
+{
+    "name": "rothub/hyperf",
+    "type": "library",
+    "description": "Hyperf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "sxfmao@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "hyperf/framework": "^2.2"
+    },
+    "require-dev": {
+        "hyperf/ide-helper": "~2.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "RotHub\\Hyperf\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
